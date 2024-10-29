@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'fb19f43b9a19ca6b5fed882661ad6f25be377e11',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'fb19f43b9a19ca6b5fed882661ad6f25be377e11',
+            'dev_requirement' => false,
+        ),
+        'aditum-payments/aditum-api-sdk-php' => array(
+            'pretty_version' => 'v2.12.0',
+            'version' => '2.12.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../aditum-payments/aditum-api-sdk-php',
+            'aliases' => array(),
+            'reference' => 'ab6cd261e8d0234bb6b310559d7a663a1bd63fdd',
+            'dev_requirement' => false,
+        ),
+        'picqer/php-barcode-generator' => array(
+            'pretty_version' => 'v2.2.1',
+            'version' => '2.2.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../picqer/php-barcode-generator',
+            'aliases' => array(),
+            'reference' => '49022793ff09569c57a2621ba58a191db5a421c4',
+            'dev_requirement' => false,
+        ),
+    ),
+);
